@@ -1,0 +1,39 @@
+.video__item {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    padding: 3% 0 3% 3%;
+}
+
+.video__item:first-child {
+    margin-right: 18px;
+}
+
+
+@media (max-width: 768px) {
+    .video__item {
+        height: 200px;
+        width: 343px;
+    }
+
+    .video__item:first-child {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 615px) {
+    .video__item:first-child {
+        margin-right: 0;
+        margin-bottom: 8px;
+        padding: 7% 0 7% 7%;
+    }
+}
+
+@media (max-width: 350px) {
+    .video__item {
+        width: 288px;
+        height: 192px;
+    }
+}

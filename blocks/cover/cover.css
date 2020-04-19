@@ -1,0 +1,60 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+
+.cover {
+    max-width: 1184px;
+    height: 594px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-bottom: 160px;
+}
+
+.cover:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;  
+    background: rgba(0, 0, 0, 0.3);  
+    transition: all 1s ease-in-out;
+}
+
+.cover:hover:before {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+    .cover{
+        margin-bottom: 102px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 650px) {
+    .cover{
+        height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cover{
+        height: 272px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover{
+        height: 216px;
+    }
+}

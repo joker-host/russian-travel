@@ -1,0 +1,35 @@
+@import url(./__container/comments__container.css);
+
+.comments {
+    max-width: 1184px;
+    margin: auto;
+    margin-bottom: 102px;
+}
+
+@media (max-width: 1220px) {
+    .comments {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .comments {
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+}
+
+@media (max-width: 375px) {
+    .comments {
+        margin-bottom: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .comments {
+        margin-bottom: 64px;
+    }
+}

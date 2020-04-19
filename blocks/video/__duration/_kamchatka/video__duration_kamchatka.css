@@ -1,0 +1,11 @@
+.video__duration_kamchatka {
+    
+}
+
+@media (max-width: 768px) {
+    .video__duration_kamchatka {
+        position: absolute;
+        left: 0;
+        bottom: 32%;
+    }
+}

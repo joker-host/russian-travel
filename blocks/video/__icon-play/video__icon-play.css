@@ -1,0 +1,11 @@
+.video__icon-play {
+    fill: white;
+    cursor: pointer;
+    justify-self: flex-start;
+    margin-bottom: 15%;
+    transition: 0.3s;
+}
+
+.video__icon-play:hover {
+    fill: #FE5F55;
+}

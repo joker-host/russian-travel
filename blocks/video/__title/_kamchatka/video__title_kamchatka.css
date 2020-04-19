@@ -1,0 +1,11 @@
+.video__title_kamchatka {
+
+}
+
+@media (max-width: 768px) {
+    .video__title_kamchatka {
+        position: absolute;
+        left: 0;
+        bottom: 1%;
+    }
+}

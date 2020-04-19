@@ -1,0 +1,25 @@
+.photo-grid__item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -moz-transition: all 4s ease-out;
+    -o-transition: all 4s ease-out;
+    -webkit-transition: all 4s ease-out;
+}
+
+.photo-grid__item:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+@media (max-width: 1000px) {
+    .photo-grid__item {
+        transition: none;
+    }
+    .photo-grid__item:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+    }
+}

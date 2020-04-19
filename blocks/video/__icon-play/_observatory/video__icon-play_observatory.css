@@ -1,0 +1,9 @@
+.video__icon-play_observatory {
+    
+}
+
+@media (max-width: 768px) {
+    .video__icon-play_observatory {
+        position: absolute;
+    }
+}
