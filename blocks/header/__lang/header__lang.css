@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-.header__lang::before {
+/* .header__lang::before {
     content: '';
     bottom: 0;
     left: 0;
@@ -21,14 +21,14 @@
 
 .header__lang:hover::before {
     width: 100%;
-}
+} */
 
 .header__lang:hover {
-    color: #FE5F55;
+    opacity: 0.8;
     transition: 0.3s;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .header__lang:first-child {
         text-decoration: underline;
     }
@@ -41,7 +41,7 @@
         color: white;
         transition: none;
     }
-}
+} */
 
 @media (max-width: 700px) {
     .header__lang {

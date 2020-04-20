@@ -5,9 +5,10 @@
     text-decoration: none;
     color: white;
     position: relative;
+    transition: 0.3s;
 }
 
-.footer__link::before {
+/* .footer__link::before {
     content: '';
     bottom: 0;
     left: 0;
@@ -21,14 +22,13 @@
 
 .footer__link:hover::before {
     width: 100%;
-}
+} */
 
 .footer__link:hover {
-    color: #FE5F55;
-    transition: 0.3s;
+    opacity: 0.8;
 }
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
     .footer__link {
         font-size: 16px;
         line-height: 27px;
@@ -44,7 +44,7 @@
         color: white;
         transition: none;
     }
-}
+} */
 
 @media (max-width: 678px) {
     .footer__link {

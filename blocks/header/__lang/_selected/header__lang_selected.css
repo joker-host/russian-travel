@@ -1,8 +1,8 @@
 .header__lang_selected {
-    position: relative;;
+    text-decoration: underline;
 }
 
-.header__lang_selected::before {
+/* .header__lang_selected::before {
     content: '';
     bottom: 0;
     left: 0;
@@ -11,9 +11,9 @@
     width: 100%;
     height: 2px;
     background-color: #FFFFFF;
-}
+} */
 
-.header__lang_selecteds:hover {
+/* .header__lang_selecteds:hover {
     color: #FE5F55;
     transition: 0.3s;
-}
+} */
