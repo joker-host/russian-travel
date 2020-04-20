@@ -1,5 +1,5 @@
 .header__lang_selected {
-    position: relative;;
+    position: relative;
 }
 
 .header__lang_selected::before {
