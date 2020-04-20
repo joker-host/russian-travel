@@ -2,7 +2,7 @@
     text-decoration: underline;
 }
 
-/* .header__lang_selected::before {
+/* ..header__lang_selected::before {
     content: '';
     bottom: 0;
     left: 0;
