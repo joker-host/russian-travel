@@ -1,9 +1,5 @@
 .header__lang_selected {
-<<<<<<< HEAD
     text-decoration: underline;
-=======
-    position: relative;
->>>>>>> 47a8e89a668a1e7a30aec5afbf2e90a6f9ce908a
 }
 
 /* .header__lang_selected::before {
@@ -20,8 +16,4 @@
 /* .header__lang_selecteds:hover {
     color: #FE5F55;
     transition: 0.3s;
-<<<<<<< HEAD
-} */
-=======
 }
->>>>>>> 47a8e89a668a1e7a30aec5afbf2e90a6f9ce908a
