@@ -7,10 +7,6 @@
     text-decoration: none;
 }
 
-.header__lang:nth-child(1) {
-    margin-right: 18px;
-}
-
 .header__lang::before {
     content: '';
     bottom: 0;

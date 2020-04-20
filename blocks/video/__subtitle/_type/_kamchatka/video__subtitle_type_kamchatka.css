@@ -1,0 +1,9 @@
+.video__subtitle_type_kamchatka {
+    
+}
+
+@media (max-width: 768px) {
+    .video__subtitle_type_kamchatka {
+        bottom: -25%;
+    }
+}

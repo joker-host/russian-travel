@@ -1,0 +1,9 @@
+.video__title_type_observatory {
+
+}
+
+@media (max-width: 768px) {
+    .video__title_type_observatory {
+        bottom: -7%;
+    }
+}

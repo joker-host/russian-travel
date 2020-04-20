@@ -4,5 +4,7 @@
     line-height: 13px;
     letter-spacing: 0.3em;
     margin: 0;
-    margin-bottom: 5%;
+    position: relative;
+    left: 5%;
+    bottom: 17%;
 }

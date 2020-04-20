@@ -1,17 +1,11 @@
 .header__logo {
-    width: 142px;
-    height: 42px;
-    transition: 0.3s;
-    fill: white;
+    width: 177px;
+    height: 52px;
 }
 
-.header__logo:hover {
-    fill: #FE5F55;
-}
-
-@media (max-width: 700px) {
+@media (max-width: 375px) {
     .header__logo {
-        font-size: 18px;
-        line-height: 17px;
+        width: 142px;
+        height: 42px;
     }
 }

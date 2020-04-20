@@ -5,9 +5,8 @@
     text-align: center;
     margin: 0;
     max-width: 1000px;
-    position: relative;
-    z-index: 1;
     margin-bottom: 134px;
+    z-index: 1;
 }
 
 @media (max-width: 1024px) {

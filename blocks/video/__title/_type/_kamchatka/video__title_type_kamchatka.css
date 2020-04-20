@@ -1,0 +1,9 @@
+.video__title_type_kamchatka {
+
+}
+
+@media (max-width: 768px) {
+    .video__title_type_kamchatka {
+        bottom: -20%;
+    }
+}

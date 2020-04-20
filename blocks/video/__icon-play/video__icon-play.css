@@ -1,11 +1,17 @@
 .video__icon-play {
-    fill: white;
+    width: 41px;
+    height: 41px;
     cursor: pointer;
     justify-self: flex-start;
-    margin-bottom: 15%;
-    transition: 0.3s;
+    margin-top: 4%;
+    margin-bottom: 27%;
+    position: relative;
+    left: 5%;
+    fill: #FE5F55;
 }
 
-.video__icon-play:hover {
-    fill: #FE5F55;
+@media (max-width: 768px) {
+    .video__icon-play {
+        margin-bottom: 5%;
+    }
 }

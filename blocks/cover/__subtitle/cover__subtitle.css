@@ -6,9 +6,8 @@
     text-align: center;
     margin: 0;
     justify-self: flex-end;
-    position: relative;
-    z-index: 1;
     margin-bottom: 48px;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {

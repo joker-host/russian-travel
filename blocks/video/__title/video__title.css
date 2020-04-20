@@ -4,7 +4,10 @@
     line-height: 39px;
     max-width: 300px;
     margin: 0;
-    margin-bottom: 9%;
+    /* margin-bottom: 2%; */
+    position: relative;
+    left: 5%;
+    bottom: 13%;
 }
 
 @media (max-width: 768px) {
