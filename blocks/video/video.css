@@ -4,17 +4,17 @@
 @import url(./__item/video__item.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__title/video__title.css);
-@import url(./__item/_type/_kamchatka/video__item_type_kamchatka.css);
-@import url(./__item/_type/_observatory/video__item_type_observatory.css);
+@import url(./__item/_type/video__item_type_kamchatka.css);
+@import url(./__item/_type/video__item_type_observatory.css);
 @import url(./__description/video__description.css);
 @import url(./__link/video__link.css);
 
-@import url(./__duration/_type/_kamchatka/video__duration_type_kamchatka.css);
-@import url(./__duration/_type/_observatory/video__duration_type_observatory.css);
-@import url(./__title/_type/_kamchatka/video__title_type_kamchatka.css);
-@import url(./__title/_type/_observatory/video__title_type_observatory.css);
-@import url(./__subtitle/_type/_kamchatka/video__subtitle_type_kamchatka.css);
-@import url(./__subtitle/_type/_observatory/video__subtitle_type_observatory.css);
+@import url(./__duration/_type/video__duration_type_kamchatka.css);
+@import url(./__duration/_type/video__duration_type_observatory.css);
+@import url(./__title/_type/video__title_type_kamchatka.css);
+@import url(./__title/_type/video__title_type_observatory.css);
+@import url(./__subtitle/_type/video__subtitle_type_kamchatka.css);
+@import url(./__subtitle/_type/video__subtitle_type_observatory.css);
 
 
 

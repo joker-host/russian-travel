@@ -12,4 +12,4 @@
 * Адаптивность для любых разрешений экранов
 
 ## Ссылка на проект
-https://joker-host.github.io/how-to-learn/index.html
+https://joker-host.github.io/russian-travel/index.html
