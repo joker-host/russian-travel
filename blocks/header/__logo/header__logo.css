@@ -1,6 +1,12 @@
 .header__logo {
     width: 177px;
     height: 52px;
+    fill: #FFFFFF;
+    transition: 0.4s;
+}
+
+.header__logo:hover {
+    fill: #FE5F55;
 }
 
 @media (max-width: 375px) {

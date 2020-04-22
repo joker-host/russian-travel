@@ -5,12 +5,11 @@
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
-    text-decoration: underline;
-    text-underline-position: under;
+    text-decoration: none;
     align-self: flex-start;
 }
 
-/* .place__url::before {
+.place__url::before {
     content: '';
     bottom: 0;
     left: 0;
@@ -24,14 +23,14 @@
 
 .place__url:hover::before {
     width: 100%;
-} */
+}
 
 .place__url:hover {
-    opacity: 0.8;
+    color: #FE5F55;
     transition: 0.3s;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .place__url {
         text-decoration: underline;
     }
@@ -44,7 +43,7 @@
         color: white;
         transition: none;
     }
-} */
+}
 
 @media (max-width: 550px) {
     .place__url {

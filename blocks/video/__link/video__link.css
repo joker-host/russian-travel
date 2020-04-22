@@ -7,4 +7,9 @@
     z-index: 1;
     color: white;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+.video__link:hover .video__icon-play {
+    fill: #FE5F55;
 }
