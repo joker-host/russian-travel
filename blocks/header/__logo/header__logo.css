@@ -9,6 +9,16 @@
     fill: #FE5F55;
 }
 
+@media (max-width: 768px) {
+    .header__logo {
+        transition: none;
+    }
+
+    .header__logo:hover {
+        fill: #FFFFFF;
+    }
+}
+
 @media (max-width: 375px) {
     .header__logo {
         width: 142px;

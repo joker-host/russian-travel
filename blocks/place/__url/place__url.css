@@ -31,10 +31,6 @@
 }
 
 @media (max-width: 768px) {
-    .place__url {
-        text-decoration: underline;
-    }
-
     .place__url::before {
         display: none;
     }

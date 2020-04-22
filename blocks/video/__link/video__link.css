@@ -13,3 +13,13 @@
 .video__link:hover .video__icon-play {
     fill: #FE5F55;
 }
+
+@media (max-width: 768px) {
+    .video__link {
+        transition: none;
+    }
+
+    .video__link:hover .video__icon-play {
+        fill: #FFFFFF;
+    }
+}

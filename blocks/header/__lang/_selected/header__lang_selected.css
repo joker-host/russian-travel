@@ -9,3 +9,14 @@
     background-color: #FFFFFF;
     transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+    .header__lang_selected::before {
+        display: block;
+    }
+
+    .header__lang:hover {
+        color: white;
+        transition: none;
+    }
+}
