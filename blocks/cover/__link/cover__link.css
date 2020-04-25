@@ -13,3 +13,10 @@
 .cover__link:hover .cover__overlay {
     opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+    .cover__link:hover .cover__overlay {
+        opacity: 0.3;
+        transition: none;
+    }
+}

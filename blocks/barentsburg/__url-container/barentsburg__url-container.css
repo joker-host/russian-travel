@@ -1,0 +1,9 @@
+.barentsburg__url-container {
+    
+}
+
+@media (max-width: 450px) {
+    .barentsburg__url-container {
+        display: none;
+    }
+}

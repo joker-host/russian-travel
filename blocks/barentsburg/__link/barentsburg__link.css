@@ -1,0 +1,53 @@
+.barentsburg__link {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    width: 400px;
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.barentsburg__link::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    transform: translate(0, 2px);
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.barentsburg__link:hover::before {
+    width: 0;
+}
+
+.barentsburg__link:hover {
+    color: #FE5F55;
+    transition: 0.3s;
+}
+
+@media (max-width: 971px) {
+    .barentsburg__link {
+        text-decoration: underline;
+    }
+
+    .barentsburg__link::before {
+        display: none;
+    }
+    
+    .barentsburg__link:hover {
+        color: white;
+        transition: none;
+    }
+}
+
+@media (max-width: 695px) {
+    .barentsburg__link {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

@@ -1,0 +1,25 @@
+.emblem__container {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    grid-column-gap: 60px;
+    justify-content: center;
+}
+
+@media (max-width: 1270px) {
+    .emblem__container {
+        grid-template-columns: repeat(3, min-content);
+        grid-row-gap: 24px;
+    }
+}
+
+@media (max-width: 780px) {
+    .emblem__container {
+        grid-template-columns: repeat(2, min-content);
+    }
+}
+
+@media (max-width: 535px) {
+    .emblem__container {
+        grid-template-columns: repeat(1, min-content);
+    }
+}

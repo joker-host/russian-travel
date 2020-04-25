@@ -1,0 +1,10 @@
+.emblem__item {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.emblem__item:last-child {
+    margin-right: 0;
+}

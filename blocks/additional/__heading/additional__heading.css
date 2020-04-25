@@ -1,0 +1,13 @@
+.additional__heading {
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 29px;
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    .additional__heading {
+        font-size: 22px;
+        max-width: 200px;
+    }
+}

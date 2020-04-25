@@ -1,0 +1,13 @@
+.additional__item {
+    width: 284px;
+    height: 330px;
+    position: relative;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border-radius: 7px;
+}
+
+.additional__item:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}

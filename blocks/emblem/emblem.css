@@ -1,0 +1,29 @@
+@import url(./__city/emblem__city.css);
+@import url(./__image/emblem__image.css);
+@import url(./__item/emblem__item.css);
+@import url(./__title/emblem__title.css);
+@import url(./__container/emblem__container.css);
+
+.emblem {
+    max-width: 1184px;
+    margin: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 85px;
+}
+
+@media (max-width: 768px) {
+    .emblem {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .emblem {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

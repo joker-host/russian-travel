@@ -1,0 +1,27 @@
+.barentsburg__text {
+    margin: 0;
+    margin-right: 120px;
+    width: 380px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+    .barentsburg__text {
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 695px) {
+    .barentsburg__text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .barentsburg__text {
+        margin-right: 0;
+    }
+}
