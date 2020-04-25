@@ -1,6 +1,7 @@
 .barentsburg__map {
     margin-bottom: 48px;
     max-width: 100%;
+    min-height: 170px;
 }
 
 @media (max-width: 600px) {
